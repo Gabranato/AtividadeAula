@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+body {
+  background: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #333;
+  padding-top: 70px;
+}
+
+body > header {
+  background: #FFF;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+}
+
+body > header > div.container > div.row > div > img {
+  width: 100%;
+  margin: 10px 0;
+}
+
+body > header > div.container > div.row > div > nav.menu {
+  width: 100%;
+}
+
+body > header > div.container > div.row > div > nav.menu > ul {
+  width: 100%;
+  margin: 0;
+  padding: 21px 0;
+  list-style: none;
+  text-align: right;
+}
+
+body > header > div.container > div.row > div > nav.menu > ul > li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+body > header > div.container > div.row > div > nav.menu > ul > li.inicio > a {
+  color: #227aff;
+}
+
+body > header > div.container > div.row > div > nav.menu > ul > li > a {
+  font-weight: 300;
+  color: #333;
+}
+
+body > header > div.container > div.row > div > nav.menu > ul > li > a:hover {
+  color: #227aff;
+  text-decoration: none;
+}
+
+body > main > img {
+  display: block;
+  width: 100%;
+}
+
+body > section {
+  padding: 80px 0;
+}
+
+body > section > div.container > div.row > div.texto > p {
+  font-weight: 300;
+}
+
+body > section > div.container > div.row > div.imagem > a > img {
+  width: 100%;
+}
+
+body > section > div.container > div.row > div > iframe {
+  margin-top: 50px;
+  height: 450px;
+}
+/*# sourceMappingURL=index.css.map */
